@@ -3,7 +3,7 @@ function clearDisplay(){
 }
 
 function display(userInput){
-    document.getElementById("display-bar").innerHTML = userInput;
+    document.getElementById("display-bar").innerHTML += userInput;
 }
 
 function calculator(){
